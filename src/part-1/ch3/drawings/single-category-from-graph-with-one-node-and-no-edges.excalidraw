@@ -1,0 +1,181 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "ellipse",
+      "version": 165,
+      "versionNonce": 795081561,
+      "isDeleted": false,
+      "id": "BaxE88OzD_dMX6red5Ifs",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1372.0446428571436,
+      "y": 6508.513640873015,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 536.8749999999998,
+      "height": 229.99999999999997,
+      "seed": 871953216,
+      "groupIds": [
+        "eCYO6jCqWKJwx6jGQ0EA_"
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "cpQEfV7fDYOmCpc6rMGy0",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1680885501656,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "text",
+      "version": 65,
+      "versionNonce": 1701757623,
+      "isDeleted": false,
+      "id": "nCxsh1GjC2zm39GUjxBAs",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1524.6339285714294,
+      "y": 6594.2279265873,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 216,
+      "height": 50,
+      "seed": 121889600,
+      "groupIds": [
+        "eCYO6jCqWKJwx6jGQ0EA_"
+      ],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1680885501656,
+      "link": null,
+      "locked": false,
+      "fontSize": 39.42857142857207,
+      "fontFamily": 1,
+      "text": "Single Node",
+      "baseline": 35,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Single Node"
+    },
+    {
+      "type": "arrow",
+      "version": 186,
+      "versionNonce": 2145200185,
+      "isDeleted": false,
+      "id": "cpQEfV7fDYOmCpc6rMGy0",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1640.348214285715,
+      "y": 6505.656498015873,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 32.85714285714289,
+      "height": 134.28571428571468,
+      "seed": 822937792,
+      "groupIds": [
+        "eCYO6jCqWKJwx6jGQ0EA_"
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "hRqnoZW2ny7sXDXFuoaju"
+        }
+      ],
+      "updated": 1680885501656,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "BaxE88OzD_dMX6red5Ifs",
+        "focus": -0.0657554431611827,
+        "gap": 2.857157105085534
+      },
+      "endBinding": {
+        "elementId": "BaxE88OzD_dMX6red5Ifs",
+        "focus": 0.1657486907373684,
+        "gap": 6.562964804759432
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          -134.28571428571468
+        ],
+        [
+          32.85714285714289,
+          -2.857142857143117
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 17,
+      "versionNonce": 1696015330,
+      "isDeleted": false,
+      "id": "hRqnoZW2ny7sXDXFuoaju",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 1648.348214285715,
+      "y": 6356.370783730158,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 24,
+      "height": 30,
+      "seed": 215868224,
+      "groupIds": [
+        "eCYO6jCqWKJwx6jGQ0EA_"
+      ],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1680885578008,
+      "link": null,
+      "locked": false,
+      "fontSize": 28,
+      "fontFamily": 1,
+      "text": "id",
+      "baseline": 22,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cpQEfV7fDYOmCpc6rMGy0",
+      "originalText": "id"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
