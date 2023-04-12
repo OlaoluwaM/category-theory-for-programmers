@@ -46,7 +46,7 @@ Furthermore, if `A` is a subtype of `B` and `B` is a subtype of `A`, then `A` an
 
 However, because we cannot relate any two random types in this set with this relation, that is, not all types conform to this relation, for instance, a number type and a string type cannot be subtypes. A function that is expecting a value that inhabits a particular number type cannot be passed a value that inhabits a string type. Thus, we cannot have a total order in this set, but at best a partial order
 
-### 3.3 Considering that Bool is a set of two values True and False, show that it forms two (set-theoretical) monoids with respect to, respectively, operator && (AND) and || (OR).
+### 3.3 Considering that Bool is a set of two values True and False, show that it forms two (set-theoretical) monoids with respect to, respectively, operator && (AND) and || (OR)
 
 #### Booleans, under logical and, with a unit element of True
 
@@ -82,4 +82,31 @@ let a: boolean;
 a || false === a
 ```
 
-### 3.4 Represent the Bool monoid with the AND operator as a category List the morphisms and their rules of composition.
+### 3.4 Represent the Bool monoid with the AND operator as a category List the morphisms and their rules of composition
+
+```typescript
+// Rules of composition
+
+const id = (b: boolean) => b && true
+const andFalse = (b: boolean) => b && false
+
+// Unit of composition & composition
+id(andFalse(true)) === andFalse
+
+// Associativity
+(id(id)) && andFalse == (id(andFalse)) && id
+
+// Composition
+andFalse(andFalse) === andFalse
+id(id) == id
+```
+
+![Bool under logical conjunction monoid category](drawings/bool-under-logical-conjunction-monoid-category.png)
+
+### 3.5 Addition modulo 3 as a monoid category
+
+In Typescript, the modulo operator is denoted as `%`
+
+![Addition modulo 3 as a monoid category](drawings/addition-modulo-3-monoid-category.png)
+
+- **References:** <https://github.com/awalterschulze/category-theory-for-programmers-challenges/blob/main/103-Categories-Great-and-Small.md>
